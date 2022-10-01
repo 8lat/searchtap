@@ -58436,6 +58436,14 @@ function Database()
         {
             "Title": "8 Facts About Battle Of Britain You Should Know | Imperial War...",
             "URL": "https://www.iwm.org.uk/history/8-things-you-need-to-know-about-the-battle-of-britain"
+        },
+        {
+            "Title": "The London Bridge is down.",
+            "URL": "https://www.nytimes.com/2022/09/29/world/europe/queen-elizabeth-death-time.html"
+        },
+        {
+            "Title": "Hurricane Ian",
+            "URL": "https://www.youtube.com/watch?v=hKmxtHCmjs4"
         }
     ];
 
