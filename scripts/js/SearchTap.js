@@ -226,7 +226,7 @@ function GetResults()
 	document.getElementById("Searchbar").value = OriginalQuery;
 	NumOfResultsElement = document.getElementById("NumOfResults");
 	if (NumOFResults == 0)
-		NumOfResultsElement.innerHTML = "1 result (" + Seconds + " seconds)";
+	window.location = "e.html";
 
 	else
 		NumOfResultsElement.innerHTML = "About " + NumOFResults + " results (" + Seconds + " seconds)";
