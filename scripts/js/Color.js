@@ -1,4 +1,4 @@
-// Color is the main algorithm behind searching and giving results for query in Studybyte search engine.
+// Color is the main algorithm behind searching and giving results for query in SearchTap search engine.
 function Color(Query, Links)
 {
 	let Rrv = RankResultValues(Query, Links); // This function will give some values, which will be used to rank results.

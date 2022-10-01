@@ -227,7 +227,6 @@ function GetResults()
 	NumOfResultsElement = document.getElementById("NumOfResults");
 	if (NumOFResults == 0)
 	window.location = "e.html";
-
 	else
 		NumOfResultsElement.innerHTML = "About " + NumOFResults + " results (" + Seconds + " seconds)";
 
@@ -259,7 +258,7 @@ function Showerror()
 	else
 	{
 		document.getElementById("Searchbar").value = OriginalQuery;
-		document.title = OriginalQuery + " - Studybyte"; // Change the title of the page.
+		document.title = OriginalQuery + " - SearchTap"; // Change the title of the page.
 	}
 }
 
