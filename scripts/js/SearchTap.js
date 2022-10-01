@@ -68,7 +68,7 @@ function TryToSearch()
 			else if (SearchTags(FormattedQuery, "pdfdrive?", "https://www.pdfdrive.com/search?q="));
 			else if (SearchTags(FormattedQuery, "ddg?", "https://duckduckgo.com/?q="));
 			else if (SearchTags(FormattedQuery, "gs?", "https://scholar.google.com/scholar?q="));
-			else if (FormattedQuery == "studybyte.old") window.location = "./includes/Studybyte.Old.html";
+			else if (FormattedQuery == "searchtap.old") window.location = "./includes/SearchTap.Old.html";
 			else if ((FormattedQuery.includes("coin") && FormattedQuery.includes("flip")) || (FormattedQuery.includes("coin") && FormattedQuery.includes("toss")))
 			{
 				let Random_num = Math.round(Math.random());
