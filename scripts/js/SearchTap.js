@@ -214,7 +214,7 @@ function GetResults()
 		HandleScroll(MaxResults);
 	}
 
-	// This piece of code will check whether the number of hidden links are equal to total number of links, and if yes or if the Query is undefined then send to "ERROR" page.
+	// this doesnt do anything but i dont want to break everything
 	if (isNaN(CalculatedAns) && NumOFResults == 0 || FormattedQuery == undefined || FormattedQuery == null || FormattedQuery == NaN)
 		window.location = "e.html";
 
